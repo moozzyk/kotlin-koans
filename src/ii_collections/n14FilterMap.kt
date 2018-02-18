@@ -7,5 +7,3 @@ fun Shop.getCitiesCustomersAreFrom(): Set<City> {
 fun Shop.getCustomersFrom(city: City): List<Customer> {
     return this.customers.filter { it.city == city }
 }
-
-
